@@ -53,7 +53,7 @@ function Body({ signer, address } : BodyProps) {
             return;
         }
         if (!signer) {
-            window.alert('Please connect!');
+            // window.alert('Please connect!');
             return;
         }
         const toSign = issue + voteFor.toString();
@@ -208,7 +208,7 @@ function Body({ signer, address } : BodyProps) {
         };
     }, [noirWithBackend]);
 
-    if (!signer) return(<><br/>Please connect!</>)
+    // if (!signer) return(<><br/>Please connect!</>)
     return (<Flex height="100vh" width="100vw" alignItems="center" justifyContent="center">
             <Box>
                 <InputGroup>

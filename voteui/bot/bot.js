@@ -1,11 +1,10 @@
 const { Telegraf } = require('telegraf');
-// path to .env file
 require('dotenv').config();
 
 const TOKEN = "7033659061:AAFaI2owlOGRq0-oKH3H8toTOPQzdjB2U1I"
 const bot = new Telegraf(TOKEN);
 
-const web_link = 'https://localhost:3000'
+const web_link = 'https://eth-vote-module.vercel.app/'
 
 bot.start((ctx) =>
     ctx.reply(

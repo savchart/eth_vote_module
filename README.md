@@ -20,9 +20,10 @@ This is a Telegram Web Application (TWA) that allows for anonymous voting suppor
 
 To install:
 ```
-cd vote
+cd votezkproof
 # Compile the vote zk prover
 nargo compile
+
 cd voteui
 pnpm install
 ./install.sh
@@ -32,4 +33,4 @@ To run it locally from the ```vote/voteui``` directory:
 ```
 pnpm start
 ```
-and use a browser with MetaMask installed to open ```http://localhost:3000```.
+and use a browser to open ```http://localhost:3000```.
